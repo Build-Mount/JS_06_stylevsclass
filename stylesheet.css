@@ -1,0 +1,15 @@
+.clsStyle {
+  text-decoration: underline;
+}
+
+.clsColorRed {
+  color: red;
+}
+
+.clsColorBlue {
+  color: blue;
+}
+
+.clsColorInitialize {
+  color: initial;
+}

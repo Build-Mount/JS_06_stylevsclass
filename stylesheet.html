@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Modal</title>
+    <script src="stylesheet.js" defer></script>
+    <link rel="stylesheet" href="stylesheet.css" type="text/css">
+</head>
+<body>
+    <div id="idStyle" class="clsStyle">この文字色をスタイルで変更する</div>
+    <input type="button" id="btnChangeStyle" value="スタイルで変更">
+    <input type="button" id="btnRoleBackStyle" value="スタイルを戻す">
+
+    <div id="idClass" class="clsStyle">この文字色をクラスで変更する</div>
+    <input type="button" id="btnChangeClass" value="クラスで変更">
+    <input type="button" id="btnRoleBackClass" value="クラスで戻す">
+
+    <div>■クラスよりもスタイル優先</div>
+    <div id="idClass2" class="clsStyle">この文字色をスタイルで変更してからクラスで変更する</div>
+    <input type="button" id="btnChangeClass2_1" value="スタイルで変更">
+    <input type="button" id="btnChangeClass2_2" value="クラスで変更">
+    <input type="button" id="btnChangeClass2_3" value="スタイルで戻す">
+    <input type="button" id="btnChangeClass2_4" value="クラスで戻す">
+</body>
+</html>
